@@ -1,0 +1,158 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+}
+
+#nav {
+  text-align: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#nav a {
+  padding: 0 2em;
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Merriweather', serif;
+}
+
+#nav a:hover {
+  background-color: red;
+}
+
+#welcome-section {
+  background-color: black;
+  text-align: center;
+  height: 700px;
+  padding: 5%;
+  width: 100%;
+}
+
+#welcome-section h1 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  margin: 3%;
+  color: white;
+}
+
+#welcome-section h4, #welcome-section h5 {
+  margin: 3%;
+  color: white;
+  font-family: 'Jost', sans-serif;
+}
+
+#projects {
+  background-color: black;
+  font-family: 'Jost', sans-serif;
+  width: 100%;
+}
+
+#projects #mis-proyectos {
+  text-align: center;
+  color: white;
+}
+
+#projects a {
+  text-decoration: none;
+  margin: 5%;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+
+#projects a h4:hover {
+  color: red;
+}
+
+#projects a h4 {
+  text-align: center;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+#projects a img {
+  width: 100%;
+  margin: 5px;
+  padding: 5%;
+  border-radius: 30px;
+}
+
+#profile-link {
+  text-align: center;
+  color: white;
+  font-family: 'Jost', sans-serif;
+  height: 600px;
+  margin-top: 10%;
+}
+
+#profile-link a {
+  color: white;
+  margin: 20%;
+  font-size: 100px;
+}
+
+#profile-link i {
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+#profile-link i:hover {
+  color: #646363;
+  -webkit-transform: translate(0, 20px);
+          transform: translate(0, 20px);
+}
+
+#footer {
+  font-family: 'Jost', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  background-color: #201F1F;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #nav {
+    width: 100%;
+  }
+  #nav a {
+    padding: 0;
+    font-size: 1em;
+  }
+  #projects {
+    overflow-x: hidden;
+  }
+  #projects #proyectos {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */
